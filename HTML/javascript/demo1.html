@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="ds">
+    <button onclick="show()">click me</button>
+    <h1 id="display-h1"></h1>
+
+    <script>
+        function show()
+        {
+            var input=document.getElementById("ds").value
+            document.getElementById("display-h1").innerHTML=input
+
+            if(input=="dani"){
+                alert("You are great...")
+            }
+        }
+    </script>
+</body>
+
+</html>

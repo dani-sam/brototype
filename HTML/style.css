@@ -1,0 +1,33 @@
+button{
+    color: white;
+    background-color:violet;
+}
+#para1{
+color: darkmagenta;
+}
+
+#para2{
+    color: steelblue;
+}
+.content{
+    color: chocolate;
+}
+.outer-box{
+    height: 223px;
+    width: 300px;
+    background-color: blue; 
+    border: 5px solid;
+    border-color: tomato;
+    color: white;
+}
+.box{
+    margin-left: 100px;
+    padding-left: 45px;
+    
+}
+.inner-div{
+    background: yellow;
+    height: 200px;
+    width: 240px;
+    margin: 10px;
+}

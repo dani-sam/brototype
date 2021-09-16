@@ -1,0 +1,132 @@
+.header{
+    width: 100%;
+    height: 85px;
+    background: #3b5998;
+}
+body{
+    margin: 0;
+    font-family: Helvetica Neue, Arial, sans-serif;
+}
+.logo{
+    width: 50%;
+    padding-top: 26px;
+    float: left;
+    
+}
+.login{
+    width: 50%;
+    float: left;
+}
+.logo-text{
+    color: #fff;
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: Helvetica Neue, Arial, sans-serif;
+    margin-left: 150px;
+}
+.login-label{
+    color: white;
+    font-size: 15px;
+}
+.login-label3{
+    color: #9cb4d8;
+    text-decoration: none;
+    font-size: 14px;
+}
+.login-controls{
+    margin-left: 100px;
+}
+.login-submit{
+    background: #4267b2;
+border-color: #29487d;
+color: white;
+font-family: Helvetica, Arial, sans-serif;
+font-size: 12px;
+cursor: pointer;
+height: 24px;
+}
+.login-submit:hover{
+    background-color: darkslateblue;
+}
+.left-section{
+    width: 50%;
+    float: left;
+    padding-left: 192px;
+padding-top: 51px;
+}
+.right-section{
+    width: 35%;
+    float: left;
+}
+.main-body{
+background: linear-gradient(white,#D3D8E8);
+width: 100%;
+height: 606px;
+}   
+.image{
+    width: 509px;
+height: 262px;
+}
+.caption{ 
+    font-weight: bold;
+    font-size: 21px;
+}
+.emailorno{
+    width: 379px;
+}
+.pw{
+    width: 379px;
+}
+.paraterm{
+    color: #777;
+    font-size: 11px;
+}
+.signup{
+    background-color: #00a400;
+    border: none;
+border-radius: 6px;
+color: #fff;
+box-shadow: none;
+height: 36px;
+width: 205px;
+text-shadow: none;
+text-align: center;
+font-size: 18px;
+overflow: hidden;
+font-weight: bolder;
+cursor: pointer;
+}
+.paraend{
+    color: #1c1e21;
+font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+font-size: 14px;
+font-weight: normal;
+}
+.endfront{
+    text-decoration: none;
+    cursor: pointer;
+    color: #385898;
+    color: inherit;
+    font-weight: 600;
+}
+.term{
+    color: #385898;
+    cursor: pointer;
+    text-decoration: none;
+}
+.datpo{
+color: #385898;
+text-decoration: none;
+cursor: pointer;
+} 
+.cookpo{
+color: #385898;
+text-decoration: none;
+cursor: pointer;
+}   
+.signup:hover{
+    background-color: #00a400;
+    
+}
+    
