@@ -1,2 +1,16 @@
-{% include 'menu.html' %}
-<h1>list</h1>
+{% extends 'blank_layout.html' %}
+{% load static %}
+{% block content %}
+<h1>list Movie</h1>
+{% for movie_obj in movies %}
+<h1>Title:{{movie_obj.Title}}</h1>
+<img src="{%static 'images/' %}{{movie_obj.img}}">
+<p>Summary:{{movie_obj.Summary}}</p>
+<h4>Year:{{movie_obj.Year}}</h4>
+{% if movie_obj.success %}
+<p>Movie was a success at that time</p>
+{% else %}
+<p>Movie was a Failer</p>
+{% endif %}
+{% endfor %}
+{% endblock content%}
